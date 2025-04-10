@@ -1,4 +1,5 @@
 NOT A COMPLETE CODE BUT BARELY WORKS 
+
 NO VALIDATIONS FOR INPUTS FROM USER
 
 
@@ -7,23 +8,23 @@ codes for future
 ====================
 methods
 ========
-this is for checking the char is in between 1 to 9 or char 49 to 57(ASCII values)
-        // while (true)
-        // {
-        //     if(int(board_position) >= '49' && int(board_position) <='57')
-        //     {
-        //         break;
-        //     }
-        //     else
-        //     {
-        //         cout<<"Enter position number inside 1-9";
-        //         cin>>board_position;
-        //     }
-        // }
+// //this is for checking the char is in between 1 to 9 or char 49 to 57(ASCII values)
+        while (true)
+        {
+            if(int(board_position) >= '49' && int(board_position) <='57')
+            {
+                break;
+            }
+            else
+            {
+                cout<<"Enter position number inside 1-9";
+                cin>>board_position;
+            }
+        }
         
 
 
-    // //user choose X OR O
+// //user choose X OR O
     char choose_X_OR_O()
     {
         char player_1, player_2;
